@@ -1,0 +1,1 @@
+Navigation=function(){var n=function(){};return{init:function(){n()}}}();

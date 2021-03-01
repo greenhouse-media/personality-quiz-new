@@ -1,0 +1,15 @@
+.fade {
+    transition: 0.5s all;
+    opacity: 0;
+}
+.hidden {
+    display: none;
+}
+.in {
+    opacity: 1;
+}
+
+// to prevent flicker in Safari caused by css animation
+.no-flick {
+	-webkit-transform:translate3d(0,0,0);
+}

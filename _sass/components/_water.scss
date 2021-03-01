@@ -1,0 +1,189 @@
+// Water Levels
+#water {
+    overflow: hidden;
+}
+
+#water[data-water-level="0"] {
+	@include water(15vh, $blue, $blue);
+}
+
+
+#water[data-water-level="1"] {
+	@include water(25vh, $semi-transparent-blue, $medium-blue);
+}
+
+#water[data-water-level="2"] {
+	@include water(35vh, $semi-transparent-blue, $medium-blue);
+}
+
+#water[data-water-level="3"] {
+	@include water(45vh, $semi-transparent-blue, $medium-blue);
+}
+
+#water[data-water-level="4"] {
+	@include water(55vh, $transparent-blue, $medium-blue);
+}
+
+#water[data-water-level="5"] {
+	@include water(65vh, $transparent-blue, $medium-blue);
+}
+
+#water[data-water-level="6"] {
+	@include water(75vh, $transparent-blue, $medium-blue);
+}
+
+#water[data-water-level="7"] {
+	@include water(85vh, $transparent-blue, $medium-blue);
+}
+
+#water[data-water-level="10"] {
+	@include water(97vh, $transparent-blue, $medium-blue);
+}
+
+@keyframes slidein {
+	from {
+		transform: translate3d(0, 0, 0);
+		width: 110%;
+	}
+	
+	to {
+		transform: translate3d(-40px, 0, 0);
+		width: 110%;
+	}
+}
+
+// Bubbles
+
+#bubbles {
+	position: relative;
+	z-index: 2;
+
+}
+
+#bubbles[data-bubble-height="0"] {
+	height: 15vh;
+}
+
+#bubbles[data-bubble-height="1"] {
+	height: 25vh;
+}
+
+#bubbles[data-bubble-height="2"] {
+	height: 35vh;
+}
+
+
+#bubbles[data-bubble-height="3"] {
+	height: 45vh;
+}
+
+#bubbles[data-bubble-height="4"] {
+	height: 55vh;
+}
+
+#bubbles[data-bubble-height="5"] {
+	height: 65vh;
+}
+
+#bubbles[data-bubble-height="6"] {
+	height: 75vh;
+}
+
+#bubbles[data-bubble-height="7"] {
+	height: 85vh;
+}
+
+#bubbles[data-bubble-height="10"] {
+	height: 97vh;
+}
+
+
+.bubble {
+    width: 30px;
+    height: 30px;
+    background: rgba(#E5DFD1, 0.5);
+    border-radius: 150px;
+    -moz-border-radius: 150px;
+    -webkit-border-radius: 150px;
+    position: absolute;
+    top: 100%;
+}
+
+
+.x1 {
+    @include bubble(10px, 0.5, 14s, 2s);
+}
+
+.x2 {
+	@include bubble(30px, 0.7, 10s, 4s);
+}
+
+.x3 {
+	@include bubble(40px, 0.3, 18s, 3s);
+}
+
+.x4 {
+	@include bubble(150px, 0.6, 12s, 5s);
+}
+
+.x5 {
+	@include bubble(175px, 0.8, 8s, 4s);
+}
+
+.x6 {
+	@include bubble(190px, 0.4, 12.5s, 3s);
+}
+
+.x7 {
+	@include bubble(210px, 0.2, 20s, 3s);
+}
+
+.x8 {
+	@include bubble(500px, 0.4, 14s, 4s);
+}
+
+.x9 {
+	@include bubble(530px, 0.6, 8s, 5s);
+}
+
+.x10 {
+	@include bubble(550px, 0.3, 18s, 6s);
+}
+
+.x11 {
+	@include bubble(650px, 0.9, 8s, 5s);
+}
+
+.x12 {
+	@include bubble(675px, 0.6, 10s, 4s);
+}
+
+.x13 {
+	@include bubble(700px, 0.3, 20s, 6s);
+}
+
+.x14 {
+	@include bubble(725px, 0.5, 12s, 6s);
+}
+
+
+
+@keyframes moveclouds { 
+    0% { 
+        transform: translate3d(0, 0, 0);
+        opacity: 0.5;
+    }
+    100% { 
+        transform: translate3d(0, -500px, 0);
+        opacity: 0;
+    }
+}
+
+@keyframes sideWays { 
+    0% { 
+        transform: translate3d(0px, 0, 0);
+    }
+    100% { 
+        transform: translate3d(35px, 0, 0);
+    }
+}

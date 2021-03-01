@@ -1,0 +1,30 @@
+@mixin water($waterheight, $watercolor1, $watercolor2) {
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	z-index: 1;
+	//position: relative;
+	&:before {
+		content: "";
+	  	position: absolute;
+	  	left: 0;
+	  	bottom: 0;
+	  	right: 0;
+	  	background-repeat: repeat-x;
+    	height: $waterheight; //default: 100px
+    	background-size: 68px $waterheight;
+    	background-image: radial-gradient(circle at 34px -9px, rgba(252, 252, 252, 0) 34px, $watercolor1 36px, $watercolor2);
+    	animation: slidein 2.5s infinite alternate;
+    	z-index: 1;
+	}
+}
+
+@mixin bubble($left, $scale, $moveclouds, $sideways) {
+	left: $left;
+	-webkit-transform: scale($scale);
+    -moz-transform: scale($scale);
+    transform: scale($scale);
+    -webkit-animation: moveclouds $moveclouds linear infinite;
+    -moz-animation: moveclouds $moveclouds linear infinite;
+    -o-animation: moveclouds $moveclouds linear infinite;
+}

@@ -1,0 +1,133 @@
+div.sun {
+    display: none;
+}
+div.raybase {
+    position: absolute;
+    left: 118px;
+    z-index: -1;
+}
+
+
+div.raybase[data-raybase-position="0"] {
+    display: none;
+}
+
+div.raybase[data-raybase-position="1"] {
+    display: initial;
+    top: -475px;
+}
+
+div.raybase[data-raybase-position="2"] {
+    top: -400px;
+}
+
+div.raybase[data-raybase-position="3"] {
+    top: -350px;
+}
+
+div.raybase[data-raybase-position="4"] {
+    top: -300px;
+}
+
+div.raybase[data-raybase-position="5"] {
+    top: -400px;
+}
+
+div.raybase[data-raybase-position="6"] {
+    top: -350px;
+}
+
+div.raybase[data-raybase-position="7"] {
+    top: -300px;
+}
+
+div.raybase[data-raybase-position="10"] {
+    top: -300px;
+}
+
+
+
+div.ray {
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+    border-left: 600px solid rgba(220, 220, 220, 0.20);
+    filter: blur(7px);
+    z-index: -1;
+}
+
+
+div.ray1 {
+    transform: translate(335px,0px); /*(50px+6px)/2*/
+}
+div.ray2 {
+    transform: rotate(15deg) translate(335px,0px) ;
+}
+div.ray3 {
+    transform: rotate(30deg) translate(335px,0px) ;
+}
+div.ray4 {
+    transform: rotate(45deg) translate(335px,0px) ;
+}
+div.ray5 {
+    transform: rotate(60deg) translate(335px,0px) ;
+}
+div.ray6 {
+    transform: rotate(75deg) translate(335px,0px) ;
+}
+div.ray7 {
+    transform: rotate(90deg) translate(335px,0px) ;
+}
+div.ray8 {
+    transform: rotate(105deg) translate(335px,0px) ;
+}
+div.ray9 {
+    transform: rotate(120deg) translate(335px,0px) ;
+}
+div.ray10 {
+    transform: rotate(135deg) translate(335px,0px) ;
+}
+div.ray11 {
+    transform: rotate(150deg) translate(335px,0px) ;
+}
+div.ray12 {
+    transform: rotate(165deg) translate(335px,0px) ;
+}
+div.ray13 {
+    transform: rotate(180deg) translate(335px,0px) ;
+}
+div.ray14 {
+    transform: rotate(195deg) translate(335px,0px) ;
+}
+div.ray15 {
+    transform: rotate(210deg) translate(335px,0px) ;
+}
+div.ray16 {
+    transform: rotate(225deg) translate(335px,0px) ;
+}
+div.ray17 {
+    transform: rotate(240deg) translate(335px,0px) ;
+}
+div.ray18 {
+    transform: rotate(255deg) translate(335px,0px) ;
+}
+div.ray19 {
+    transform: rotate(270deg) translate(335px,0px) ;
+}
+div.ray20 {
+    transform: rotate(285deg) translate(335px,0px) ;
+}
+div.ray21 {
+    transform: rotate(300deg) translate(335px,0px) ;
+}
+div.ray22 {
+    transform: rotate(315deg) translate(335px,0px) ;
+}
+div.ray23 {
+    transform: rotate(330deg) translate(335px,0px) ;
+}
+div.ray24 {
+    transform: rotate(345deg) translate(335px,0px) ;
+}

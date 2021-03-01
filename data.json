@@ -1,0 +1,395 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "step": 1,
+            "options": [
+                {
+                    "answer": "I'm a water baby &#8212; I'm in the water every chance I get.",
+                    "id": 2
+                },
+                {
+                    "answer": "Sure, I'll take a dip in a pool or lake, but I prefer to stay dry.",
+                    "id": 15
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "step": 2,
+            "options": [
+                {
+                    "answer": "I'm a pretty mellow, grounded person.",
+                    "id": 3
+                },
+                {
+                    "answer": "I'm all over the place! I can never sit still.",
+                    "id": 5
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "step": 3,
+            "options": [
+                {
+                    "answer": "I enjoy home cooked meals.",
+                    "id": 4
+                },
+                {
+                    "answer": "I prefer to eat out.",
+                    "resultId": 1
+                }
+            ]
+        },
+         {
+            "id": 4,
+            "step": 4,
+            "options": [
+                {
+                    "answer": "I stand out in a crowd!",
+                    "resultId": 2
+                },
+                {
+                    "answer": "I prefer to keep a low profile.",
+                    "resultId": 3
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "step": 3,
+            "options": [
+                {
+                    "answer": "The idea of scuba diving sounds fun to me.",
+                    "id": 6
+                },
+                {
+                    "answer": "I'd prefer to snorkel than to scuba dive.",
+                    "id": 11
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "step": 4,
+            "options": [
+                {
+                    "answer": "I'm friendly and approachable.",
+                    "id": 7
+                },
+                {
+                    "answer": "I have a tough exterior.",
+                    "id": 10
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "step": 5,
+            "options": [
+                {
+                    "answer": "I'm a sensitive person. I'm easily affected by what's happening around me.",
+                    "id": 8
+                },
+                {
+                    "answer": "Not much fazes me.",
+                    "resultId": 4
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "step": 6,
+            "options": [
+                {
+                    "answer": "I'd like to travel to far off places.",
+                    "resultId": 5 
+                },
+                {
+                    "answer": "I prefer to stay closer to home.",
+                    "id": 9 
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "step": 7,
+            "options": [
+                {
+                    "answer": "I go out of my way to help others.",
+                    "resultId":  6
+                },
+                {
+                    "answer": "I usually only help out when I'm asked.",
+                    "resultId": 7 
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "step": 5,
+            "options": [
+                {
+                    "answer": "I need to wear eyeglasses.",
+                    "resultId": 8 
+                },
+                {
+                    "answer": "I don't need to wear eyeglasses.",
+                    "resultId": 9 
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "step": 4,
+            "options": [
+                {
+                    "answer": "I'm usually upbeat and optimistic.",
+                    "resultId": 10
+                },
+                {
+                    "answer": "I'm a pessimist and often dwell on the negative.",
+                    "id": 12 
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "step": 5,
+            "options": [
+                {
+                    "answer": "I get cold easily and prefer warm weather.",
+                    "id": 13
+                },
+                {
+                    "answer": "I get hot easily and prefer cool weather.",
+                    "resultId": 11 
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "step": 6,
+            "options": [
+                {
+                    "answer": "I'm generally pretty shy and quiet.",
+                    "id": 14
+                },
+                {
+                    "answer": "I'm outspoken and not afraid to speak my mind.",
+                    "resultId": 12 
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "step": 7,
+            "options": [
+                {
+                    "answer": "In my free time, I enjoy hanging out with myself.",
+                    "resultId": 13
+                },
+                {
+                    "answer": "During my spare time, I prefer to hang out with friends.",
+                    "resultId": 14
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "step": 2,
+            "options": [
+                {
+                    "answer": "The idea of flying in a plane excites me.",
+                    "id": 16
+                },
+                {
+                    "answer": "I'm comfortable on the ground, thank you very much.",
+                    "id": 18
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "step": 3,
+            "options": [
+                {
+                    "answer": "I'm pretty low-key and like to just hang out.",
+                    "id": 17
+                },
+                {
+                    "answer": "I'm really high energy and am always on the go!",
+                    "resultId": 15
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "step": 4,
+            "options": [
+                {
+                    "answer": "I'm a picky eater.",
+                    "resultId": 16
+                },
+                {
+                    "answer": "I'll eat just about anything.",
+                    "resultId": 17
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "step": 3,
+            "options": [
+                {
+                    "answer": "I like to keep things around me clean and tidy.",
+                    "resultId": 18
+                },
+                {
+                    "answer": "I'm not very organized.",
+                    "resultId": 19
+                }
+            ]
+        }
+
+
+    ],
+    "results": [
+        {
+            "id": 1,
+            "name": "Freshwater Mussel",
+            "latin": "Over 300 Species in North America",
+            "exclamation": "Magnificent! You're",
+            "body": " a freshwater mussel or pearly mussel. Like you, this mussel is as happy as a clam when it’s in the water. You’re also perfectly content just hanging out. Likewise, juvenile and adult mussels nestle themselves into the sand or gravel of the riverbed where they filter tiny bits of food out of the water. In fact, when lots of mussels are around, their filtering can clean the water for improve the environment for all the other species in the river!"
+        },
+        {
+            "id": 2,
+            "name": "Yellow pond lily",
+            "latin": "Nuphar advena",
+            "exclamation": "Phenomenal! You’re",
+            "body": " or yellow pond lily. You and this aquatic plant are both water babies. As a mellow, grounded person, you can identify with this lily’s nature to stay rooted in place. Your preference for home-cooked meals resembles the yellow pond lily’s ability to make its own food through photosynthesis. Plus, you both attract a lot of attention. The yellow pond lily has large leaves that provide shelter for wildlife, as well as bright yellow flowers that draw pollinators like bees and beetles."
+        },
+        {
+            "id": 3,
+            "name": "Wild celery",
+            "latin": "Vallisneria americana",
+            "exclamation": "Outstanding! You’re",
+            "body": " also known as wild celery. This aquatic plant shares your love of the water and can be found in healthy freshwater ecosystems throughout North America. As a down-to-earth and grounded person, you can identify with this plant’s deep roots, which perform an important ecosystem service of holding nutrient-rich soils in place. Your preference for home-cooked meals resembles wild celery’s ability to make its own food through photosynthesis. Like you, this grass also keeps a low profile with its tiny white flowers and long, ribbon-like leaves."
+        },
+        {
+            "id": 4,
+            "name": "Largemouth bass",
+            "latin": "Micropterus salmoides",
+            "exclamation": "Tremendous! You’re",
+            "body": " the largemouth bass. Not suprisingly, this popular sport fish shares your love of the water. Just like you’re always on the go, the largemouth bass is an active swimmer and voracious predator that hunts a diverse array of prey. Plus, you’re both able to handle just about anything that comes up in life. This adaptability allows the bass to survive in a wide variety of climates and environmental conditions, making it one of the most ecologically-tolerant fish on the continent!"
+        },
+        {
+            "id": 5,
+            "name": "American eel",
+            "latin": "Anguilla rostrata",
+            "exclamation": "Hooray! You’re",
+            "body": " the American eel. Much like you, these long, slender fish can’t stay put. Not only are they active swimmers, but they also share your attraction to far off places. American eels migrate up to 1500 miles to get from their usual habitat on the Atlantic coast to their spawning grounds in the Sargasso Sea! You’re both sensitive souls, though, and environmental degradation due to human activity has made this once abundant fish an endangered species."
+        },
+        {
+            "id": 6,
+            "name": "Brook trout",
+            "latin": "Salvelinus fontinalis",
+            "exclamation": "Incredible! You’re",
+            "body": " also known as brook trout. Like you, this distinctively patterned fish is happiest when it’s in the water. As sensitive souls, you’re both easily affected by what happens around you. The brook trout needs pure, clear water to thrive, and its population has been severely impacted by pollution and habitat loss. This decline in numbers affects other species too, because much like your willingness to help others, the brook trout acts as a nursery by carrying baby mussels in its gills. Once the tiny mussels grow large enough, they drop off the trout into stream bed where they live as adults. "
+        },
+        {
+            "id": 7,
+            "name": "American sturgeon",
+            "latin": "Acipenser oxyrinchus oxyrinchus",
+            "exclamation": "Yippee! You’re",
+            "body": " more commonly known as the American sturgeon. You and this long-lived fish both share a love of water. Not only are you both water babies, but you’re always on the move. Sturgeon will even launch themselves out of the water, landing with a big splash that can be heard from half a mile away! Your sensitivity means that you’re also both attuned to what is going on around you. Sturgeon use electroreceptors on their heads and long barbels that hang below their snouts to help them find prey and navigate to their breeding grounds."
+        },
+        {
+            "id": 8,
+            "name": "Diatom",
+            "latin": "Navicula radiosa",
+            "exclamation": "Wow! You’re",
+            "body": " which is a type of diatom. This boat-shaped algae shares your love of water and is found free-floating in a range of aquatic environments. Much like your tough exterior, diatoms are encased in a hard shell that protects them from predators. At the same time, diatoms are a valuable food source for a diverse range of organisms, making them critical to the health of aquatic habitats. Just as you need to wear glasses, diatoms use silica to build their shells, which can be so intricate that they have inspired art and architecture!"
+        },
+        {
+            "id": 9,
+            "name": "Water flea",
+            "latin": "Daphnia pulex",
+            "exclamation": "Splendid! You’re",
+            "body": " a type of water flea. It’s no wonder you two are a match. Daphnia is shares your love of water and is found in a range of freshwater habitats. Much like scuba diving appeals to you, this little crustacean breathes underwater like a champ, as long as the water has plenty of oxygen. Plus, you two are always on the go. Water fleas propel themselves through the water with a pair of antennae that have evolved into a powerful swimming structures. And just as you have a tough exterior, Daphnia protect themselves from predators with an exoskeleton."
+        },
+        {
+            "id": 10,
+            "name": "Water bug",
+            "latin": "Aquarius remigis",
+            "exclamation": "Fantastic! You’re",
+            "body": " a type of water bug. You and this aquatic insect both share a love of water. Not only are you both water babies, but you’re always on the move. Water striders are often found gliding or skittering across the water surface. Much like your positive and upbeat personality, the water strider is buoyant. It stays afloat by water tension and tiny hairs that trap air, creating a small cushion that allows it to walk on water!"
+        },
+        {
+            "id": 11,
+            "name": "River otter",
+            "latin": "Lontra canadensis",
+            "exclamation": "Super! You’re",
+            "body": " the North American river otter. Like you, this mammal is quite content in the water and can be found in rivers, ponds, lakes, estuaries, and other waterbodies. Just like you’re always on the go, the river otter is an agile hunter both in the water and on land, where it preys on a diverse array of organisms. You’re also comfortable in cold weather, and the river otter is no different. Covered in 373,000 hairs per square inch, it has plenty of fur to keep it warm!"
+        },
+        {
+            "id": 12,
+            "name": "Bullfrog",
+            "latin": "Lithobates catesbeianus",
+            "exclamation": "Amazing! You’re",
+            "body": " the American bullfrog.  Much like you, this amphibious frog needs to breathe air but is happiest in the water. You also share a tendency to get chilled easily, and bullfrogs need external sources of heat to warm up. You both enjoy being on the move, and bullfrogs can leap as far as ten times their body length! Just as you like to speak your mind, bullfrogs are quite vocal. Male bullfrogs can bellow so loudly that they can be heard up to half a mile away!"
+        },
+        {
+            "id": 13,
+            "name": "Northern water snake",
+            "latin": "Nerodia sipedon",
+            "exclamation": "Fabulous! You’re ",
+            "body": " the northern water snake. This aquatic reptile shares your love of the water and can even stay submerged for up to 90 minutes! You’re prone to getting chilled easily, and this snake is no different. As an ectotherm, it needs external sources of heat to warm up. Neither of you are especially vocal, and you prefer to keep your own company. The water snake’s quiet, retiring nature allows it to more easily hunt a range of prey including small fish, salamanders, crayfish, and frogs. "
+        },
+        {
+            "id": 14,
+            "name": "Painted turtle",
+            "latin": "Chrysemys picta",
+            "exclamation": "Terrific! You’re",
+            "body": " the painted turtle. This aquatic reptile shares your love of the water and occupies wetlands where it feeds on a wide range of organisms including aquatic plants, algae, worms, insects, and frogs. You’re prone to getting chilled easily, and this turtle is no different. As an ectotherm, it needs external sources of heat to warm up and can often be found basking on logs and rocks. You may not be especially vocal, but you’re both social animals who like being around others.  Large groups of up to 50 turtles have been seen sharing a log and soaking up the warmth of the sun."
+        },
+        {
+            "id": 15,
+            "name": "Dragonfly",
+            "latin": "Anax junius",
+            "exclamation": "Impressive! You’re",
+            "body": " a species of dragonfly also known as the Green Darner. Much like your preference to stay dry, this insect is terrestrial for most of its life cycle. Of course, the Green Darner also shares your affinity for flying and can travel over huge distances, sometimes migrating from the northern United States all the way to Texas and Mexico. Your endless energy and enthusiasm are only matched by the dragonfly, who can fly up to 30 miles per hour and in six directions – up, down, forward, back, left, and right!"
+        },
+        {
+            "id": 16,
+            "name": "Osprey",
+            "latin": "Pandeon haliaetus",
+            "exclamation": "Remarkable! You’re",
+            "body": " better known as osprey. Of course, this raptor shares your affinity for flying and can be seen circling above the water with a wingspan nearly six feet wide! You’re game to take a dip, but you’d prefer to stay out of the water. Likewise, this raptor typically stays dry, only diving briefly with feet first to pluck fish from shallow waterbodies. You’re also both choosy about what you eat, and this bird is unique among North American raptors for only eating live fish. "
+        },
+        {
+            "id": 17,
+            "name": "Great blue heron",
+            "latin": "Ardea herodias",
+            "exclamation": "Superb! You’re",
+            "body": " the great blue heron. This elegant bird shares your attraction to flying and is a sight to behold with a wingspan of more than five feet! Similar to your low-key personality, herons stand quite still or move very slowly through shallow water as they look for food. Just like your willingness to eat almost anything, great blue herons have a diverse diet of fish, amphibians, reptiles, insects, and even small birds. "
+        },
+        {
+            "id": 18,
+            "name": "Maple tree",
+            "latin": "Acer rubrum",
+            "exclamation": "Stupendous! You’re ",
+            "body": " a type of maple tree. Neither of you is thrilled about flying, so you’re more likely to be found on land. Plus, you’re game to take a dip, but you’d prefer to stay out of the water. Similarly, maples are terrestrial, but when they drop their leaves in the fall, the leaves drift into rivers and lakes where they provide an important source of food and nutrients for small aquatic organisms. You also like to keep your space clean and tidy, and the red maple is no different. These trees keep the air, water, and soil clean by absorbing and storing pollutants!"
+        },
+        {
+            "id": 19,
+            "name": "Fishing spider",
+            "latin": "Dolomedes triton",
+            "exclamation": "Woohoo! You’re",
+            "body": " commonly known as the fishing spider. It’s no surprise that you two are a match. Neither of you is into flying, so you’re more likely to be found near the ground. Plus, you’re game to take a dip, but you’d prefer to stay out of the water. Similarly, the fishing spider hangs out among rocks or vegetation at the water’s edge, only diving in once they detect prey or need a place to hide."
+        }
+
+
+    ]
+}

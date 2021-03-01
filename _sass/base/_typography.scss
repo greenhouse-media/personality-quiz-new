@@ -1,0 +1,67 @@
+@font-face {font-family: "TradeGothic LT CondEighteen";
+    src: url("../fonts/e72e8eda063ac8bb688e72544c5bca28.eot");
+    src: url("../fonts/e72e8eda063ac8bb688e72544c5bca28.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/e72e8eda063ac8bb688e72544c5bca28.woff2") format("woff2"),
+    url("../fonts/e72e8eda063ac8bb688e72544c5bca28.woff") format("woff"),
+    url("../fonts/e72e8eda063ac8bb688e72544c5bca28.ttf") format("truetype"),
+    url("../fonts/e72e8eda063ac8bb688e72544c5bca28.svg#TradeGothic LT CondEighteen") format("svg");
+}
+
+@font-face {font-family: 'TradeGothicW01Cn_18';
+    src: url('../fonts/TradeGothicW01Cn_18.eot');
+    src: url('../fonts/TradeGothicW01Cn_18.otf') format('otf'),
+    url('../fonts/TradeGothicW01Cn_18.ttf') format('truetype'),
+    url('../fonts/TradeGothicW01Cn_18.woff') format('woff');
+}
+
+@font-face {font-family: 'FiraSansCondensed-Bold';
+    src: url('../fonts/FiraSansCondensed-Bold.eot');
+    src: url('../fonts/FiraSansCondensed-Bold.ttf') format('truetype'),
+    url('../fonts/FiraSansCondensed-Bold.woff') format('woff'),
+    url('../fonts/FiraSansCondensed-Bold.woff2') format('woff2');
+}
+
+@font-face {font-family: 'FiraSansCondensed-Regular';
+    src: url('../fonts/FiraSansCondensed-Regular.eot');
+    src: url('../fonts/FiraSansCondensed-Regular.ttf') format('truetype'),
+    url('../fonts/FiraSansCondensed-Regular.woff') format('woff'),
+    url('../fonts/FiraSansCondensed-Regular.woff2') format('woff2');
+}
+
+@font-face {font-family: 'FiraSansCompressed-Bold';
+    src: url('../fonts/FiraSansCompressed-Bold.eot');
+    src: url('../fonts/FiraSansCompressed-Bold.ttf') format('truetype'),
+    url('../fonts/FiraSansCompressed-Bold.woff') format('woff'),
+    url('../fonts/FiraSansCompressed-Bold.woff2') format('woff2');
+}
+
+
+
+* {
+    font-family: 'TradeGothicW01Cn_18';
+}
+
+h1, h2, h3, h4, h5, h6, button {
+    font-family: 'TradeGothic LT CondEighteen';
+}
+
+
+h1 {
+    font-size: 48px;
+    line-height: 1.8;
+
+    small {
+        color: #939598;
+        font-size: 36px;
+        display: block;
+    }
+}
+
+
+
+
+p, {
+    font-family: 'TradeGothicW01Cn_18';
+    font-size: 21px;
+    line-height: 1.8;
+}

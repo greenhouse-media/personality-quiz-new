@@ -1,0 +1,22 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background: #E5DFD1;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#content {
+	width: 60%;
+	margin: 0 auto;
+}
+
+
+@media only screen and (max-width: 576px) {
+    #content {
+        width: 80%;
+    }
+}
