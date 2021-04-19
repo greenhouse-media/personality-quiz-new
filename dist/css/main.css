@@ -661,7 +661,7 @@ body {
   background: none;
   color: #ffffff;
   text-transform: uppercase;
-  font-size: 1.7em;
+  font-size: 2.2em;
 }
 #results button img {
   padding-left: 10px;
@@ -676,6 +676,20 @@ body {
 
 #results.in {
   z-index: 3;
+}
+
+.social-share img {
+  padding: 10px;
+}
+
+.share-msg {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 2.2em;
+}
+
+.take-the-quiz {
+  margin-top: 30px;
 }
 
 div.sun {

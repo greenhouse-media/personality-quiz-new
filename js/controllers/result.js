@@ -30,6 +30,10 @@ Result = (function () {
         }
     }
 
+    var redirectResult = function (id) {
+        location.href = data.results[id].slug+ '.html';
+    }
+
     var fadeAnimation = function () {
         $('#animation').addClass('fade');
         $('#animation').addClass('hidden');
@@ -53,7 +57,7 @@ Result = (function () {
 
         if (id == null || id == 1) {
             sendGAEvent('Results: ' + data.results[0].name);
-            $('#result-template-mussel').tmpl(data.results[0]).appendTo('#results');
+            $('#result-template-mussel').tmpl(data.results[0]).appendTo('head');
             $('#profile').attr('src', 'assets/images/profiles/1@2x.png');
             $('#animation').load('assets/animations/1.html', function () {
                 animationInit();
@@ -92,7 +96,8 @@ Result = (function () {
         clearCalculate: clearCalculate,
         fadeAnimation: fadeAnimation,
         buildResults: buildResults,
-        clearResults: clearResults
+        clearResults: clearResults,
+        redirectResult: redirectResult
 
     }
 })();
